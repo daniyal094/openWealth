@@ -18,7 +18,6 @@ const Portfolio = ({ data }: { data: Crypto[] }) => {
       $borderRadius={themeTokens.borderRadius.large}
       $padding={themeTokens.padding.large}
       $direction="column"
-      $border="0px 10px 0px 0px"
       $themeColors={themeColor}
     >
       <DisplayFlex $direction="column" $gap={themeTokens.gap.large}>
@@ -28,11 +27,12 @@ const Portfolio = ({ data }: { data: Crypto[] }) => {
         <Divider $themeColor={themeColor} />
       </DisplayFlex>
       {data?.map((crypto, index) => (
-        <DisplayFlex $direction="column" $gap={themeTokens.gap.large} >
-          <DisplayFlex
-            $gap={themeTokens.gap.medium}
-            $align="center"
-          >
+        <DisplayFlex
+          $direction="column"
+          $gap={themeTokens.gap.large}
+          key={crypto.id + index}
+        >
+          <DisplayFlex $gap={themeTokens.gap.medium} $align="center">
             <Image
               src={crypto.image_url}
               alt={crypto.name}
