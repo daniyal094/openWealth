@@ -4,19 +4,27 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "build":"next build",
+    "start":"next start",
+    "lint": "next lint",
+    "i18nexus": "i18nexus pull"
   },
   "dependencies": {
+    "i18next": "^23.15.1",
+    "i18next-resources-to-backend": "^1.2.1",
+    "next": "14.2.13",
+    "next-i18n-router": "^5.5.1",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.13"
+    "react-i18next": "^15.0.2",
+    "recharts": "^2.12.7",
+    "styled-components": "^6.1.13"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
-    "@types/react-dom": "^18"
+    "@types/react-dom": "^18",
+    "i18nexus-cli": "^3.5.0",
+    "typescript": "^5"
   }
 }

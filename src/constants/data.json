@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Bitcoin",
+    "symbol": "BTC",
+    "price_usd": 26780.45,
+    "market_cap_usd": 519654321012,
+    "volume_24h_usd": 2345678910,
+    "change_24h_percent": 1.35,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Bitcoin.svg"
+  },
+  {
+    "id": 2,
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "price_usd": 1780.55,
+    "market_cap_usd": 219654321012,
+    "volume_24h_usd": 1789034502,
+    "change_24h_percent": -0.95,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Ethereum_logo_2014.svg"
+  },
+  {
+    "id": 3,
+    "name": "Dogecoin",
+    "symbol": "DOGE",
+    "price_usd": 0.061,
+    "market_cap_usd": 8573210123,
+    "volume_24h_usd": 512334000,
+    "change_24h_percent": 1.2,
+    "image_url": "https://upload.wikimedia.org/wikipedia/en/d/d0/Dogecoin_Logo.png"
+  },
+  {
+    "id": 5,
+    "name": "Chainlink",
+    "symbol": "LINK",
+    "price_usd": 7.8,
+    "market_cap_usd": 2809876512,
+    "volume_24h_usd": 970123450,
+    "change_24h_percent": 0.85,
+    "image_url": "https://cryptologos.cc/logos/chainlink-link-logo.png"
+  }
+]
